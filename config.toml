@@ -1,0 +1,47 @@
+baseURL = "https://mferrera.github.io/myces"
+languageCode = "en-us"
+title = "Myces"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+[params]
+  homepage_button_link = "/myces/docs"
+  homepage_button_text = "Go to Docs"
+  homepage_intro = "Myces is a collection of reference documents that describe how to build and operate a home microbiological laboratory from scratch."
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Myces is a collection of reference documents that describe how to build and operate a home microbiological laboratory from scratch."
+    meta_og_title = "Myces"
+    meta_og_type = "website"
+    meta_og_url = "https://mferrera.github.io/myces"
+    meta_og_images = "https://mferrera.github.io/myces"
+    meta_og_image = "https://mferrera.github.io/myces/images/logo_400px.png"
+    meta_og_description = "Myces is a collection of reference documents that describe how to build and operate a home microbiological laboratory from scratch."
+
+  [params.logo]
+      mobile = "images/logo_200px.png"
+      standard  = "images/logo_200px.png"

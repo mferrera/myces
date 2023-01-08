@@ -1,0 +1,9 @@
+.DS_Store
+public/
+resources/
+jsconfig.json
+node_modules/
+go.sum
+*.swp
+*~
+.hugo_build.lock
