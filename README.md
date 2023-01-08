@@ -1,7 +1,9 @@
 # Myces
 
-Myces is a collection of reference documents that describe how to build and
-operate a home microbiological laboratory from scratch.
+[Myces](https://mferrera.github.io/myces) is a collection of reference
+documents that describe how to build and operate a home microbiological
+laboratory from scratch.
+
 
 ## Purpose
 
@@ -21,3 +23,8 @@ can be found, in the worst case, at specialty health food stores.
 Although these documents will be published publicly, they primarily serve
 as a reference guide and learning vector for myself. Factual accuracy and
 correctness are **not guaranteed!**
+
+
+## Website
+
+You can [view the website here.](https://mferrera.github.io/myces)
